@@ -5,7 +5,7 @@ const reqString = {
     required: true
 }
 
-const userSchema = mongoose.Schema({
+const friendSchema = mongoose.Schema({
     country: String,
     display_name: String,
     email: String,
@@ -23,4 +23,4 @@ const userSchema = mongoose.Schema({
 
 //if you want one of the catagories to be required all you have to do is change 'String,' to: 'reqString,'
 
-module.exports = mongoose.model('users', userSchema)
+module.exports = mongoose.model('friends', friendSchema)
