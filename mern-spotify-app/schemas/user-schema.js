@@ -12,6 +12,7 @@ const userSchema = mongoose.Schema({
     spotify_uri: String,
     link: String,
     ID: String,
+    password: String,
     profile_image: String,
     product: String,
     type: String,
